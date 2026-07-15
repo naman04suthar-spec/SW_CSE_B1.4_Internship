@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Audio tag</title>
+</head>
+<body>
+    <p>audio tag</p>
+    <audio src="Day_Day3_sample-3s.mp3" controls>Your browse doesnt support the audio tag</audio>
+
+    <!-- Audio formats 
+    1. Mp3 
+    2. OGG
+    3. wAV
+    -->
+    <!-- Autoplay -->
+    <audio src="Day_Day3_sample-3s.mp3" autoplay controls>Your browse doesnt support the audio tag</audio>
+    <!-- Muted -->
+    <audio src="Day_Day3_sample-3s.mp3" autoplay muted controls>Your browse doesnt support the audio tag</audio>
+    <!--loop -->
+    <audio src="Day_Day3_sample-3s.mp3" loop controls>Your browse doesnt support the audio tag</audio>
+
+    <!-- poster -->
+    <!-- none:dont preload the video load only when user starts playing -->
+    <!-- Metadata: Load only information like duration, dimension etc -->
+    <!-- Auto: browser load video immediately -->
+    <audio src="Day_Day3_sample-3s.mp3" preload="metadata" controls>
+        Your browser does not support audio tag
+    </audio>
+
+</body>
+</html>
