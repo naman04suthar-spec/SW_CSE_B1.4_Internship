@@ -15,7 +15,7 @@ if (true) {
 let score = 100;
 //let score = 100; //SyntaxError: Identifier 'score' has already been declared
 score = 160; // re-assignment is valid
-// console.log(score)
+console.log(score)
 
 if(true){
     let secret = "Password@123"; // let in JS is block-scoped
