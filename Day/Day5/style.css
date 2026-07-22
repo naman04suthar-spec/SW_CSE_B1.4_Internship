@@ -1,0 +1,167 @@
+/* Universal Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* CSS Variables */
+
+:root{
+    --primary:#2563eb;
+    --secondary:#1e293b;
+    --background:#f4f4f4;
+    --text:#333333;
+    --white:#ffffff;
+    --font:Arial, Helvetica, sans-serif;
+}
+
+/* Element Selector */
+
+body{
+    font-family:var(--font);
+    background:var(--background);
+    color:var(--text);
+}
+
+/* Navbar */
+
+.navbar{
+    background:var(--secondary);
+    color:var(--white);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+/* ID Selector */
+
+#logo{
+    color:var(--primary);
+}
+
+/* Descendant Selector */
+
+.navbar ul{
+    list-style:none;
+    display:flex;
+}
+
+.navbar ul li{
+    margin-left:25px;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color:var(--white);
+    font-weight:bold;
+}
+
+.navbar ul li a:hover{
+    color:var(--primary);
+}
+
+/* Hero Section */
+
+.hero{
+    text-align:center;
+    background:var(--primary);
+    color:var(--white);
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+.hero button{
+    padding:12px 25px;
+    background:var(--white);
+    color:var(--primary);
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.hero button:hover{
+    background:#dddddd;
+}
+
+/* About Section */
+
+.about{
+    padding:60px 40px;
+    text-align:center;
+}
+
+.about h2{
+    color:var(--secondary);
+    margin-bottom:20px;
+}
+
+.about p{
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+}
+
+/* Projects */
+
+.projects{
+    background:var(--white);
+    padding:60px 40px;
+    text-align:center;
+}
+
+.projects h2{
+    margin-bottom:30px;
+    color:var(--secondary);
+}
+
+.project-card{
+    background:#eeeeee;
+    margin:20px auto;
+    padding:20px;
+    width:70%;
+    border-radius:10px;
+}
+
+.project-card h3{
+    color:var(--primary);
+    margin-bottom:10px;
+}
+
+/* Contact */
+
+.contact{
+    background:var(--secondary);
+    color:var(--white);
+    text-align:center;
+    padding:60px 20px;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+.contact p{
+    margin:10px;
+}
+
+/* Footer */
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
